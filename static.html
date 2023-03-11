@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="webexp22.css">
+<title>Website</title>
+<style>
+   
+p{
+ font-family: 'Times New Roman', Times, serif; 
+ font-size: 24px;     
+ font-style: normal; 
+ font-weight: bold; 
+ color: rgb(255, 0, 149);
+ text-align: start; 
+ text-decoration:dotted
+}
+table.inner{
+ border: 10px
+}
+input[type=text], input[type=email], input[type=number]{
+ width: 50%;
+ padding: 6px 12px;
+ margin: 5px 0;
+ 
+}
+input[type=submit], input[type=reset]{
+ width: 15%;
+ padding: 8px 12px;
+ margin: 5px 0;
+
+}
+</style>
+</head>
+<body>
+<p>Juice shop</p>
+<table align="" cellpadding = "10">
+<tr>
+<td>First Name:</td>
+<td><input type="text" name="FirstName" maxlength="50" placeholder="xxxx" />
+</td>
+</tr>
+<tr>
+<td>Last Name:</td>
+<td><input type="text" name="LastName" maxlength="50" placeholder="yyy"/>
+</td>
+</tr>
+<tr>
+<td>Email:</td>
+<td><input type="email" name="EmailID" maxlength="100" placeholder="xxx@gmail.com"/></td>
+</tr>
+<tr>
+<td>Mobile Number:</td>
+<td>
+<input type="text" name="MobileNumber" maxlength="10" placeholder="+911234567890"/>
+</td>
+</tr>
+<tr>
+<td>Gender:</td>
+<td>
+<input type="radio" name="Gender" value="Male" />
+Male
+<input type="radio" name="Gender" value="Female" />
+Female
+</td>
+</tr>
+<tr>
+</tr>
+<tr>
+<td>Address:<br /><br /><br /></td>
+<td><textarea name="Address" rows="4" cols="20"></textarea></td>
+</tr>
+<tr>
+<td>Date of Birth</td>
+<td>
+<input type="date" id="DOB" name="date">
+</td><br>
+<tr>
+<td>Favourite juice<br /></td>
+<td>
+<select id="juice" name="juice">
+    <option value="strawberry">Strawberry juice </option>
+    <option value="apple">Apple juice</option>
+    <option value="watermelon">Watermelon juice </option>
+    <option value="pineapple">Pineapple juice</option>
+    <option value="lemon">Lemon juice </option>
+    <option value="orange">Orange juice </option>
+    <option value="Mixed Fruit">Mixed fruit juice </option>
+</select>
+</td>
+</tr>
+</table>
+<input type="submit" value="submit">
+</form>
+</body>
+</html>
+
+
+
+table{
+ 
+    color:rgb(128, 12, 252); 
+    font-size: 16px; 
+    font-style: italic;
+    font-weight: absolute;
+    background: linear-gradient(to bottom, #ffaa3390 0%, #cc32f7 100%);  
+    border-collapse: collapse; 
+    border: 4px solid #00000061;
+    border-style:ridge;
+}
